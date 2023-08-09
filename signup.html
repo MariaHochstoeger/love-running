@@ -65,24 +65,26 @@
         <input id="first_name" type="text" name="first_name" class="text-input" required>
         <br>
         <label for="last_name">Last Name</label>
-        <input id="last_name" type="text" name="first_name" class="text-input" required>
+        <input id="last_name" type="text" name="last_name" class="text-input" required>
         <br>
         <label for="email_address">Email Address</label>
-        <input id="email_address"" type="text" name="first_name" class="text-input" required>
+        <input id="email_address" type="text" name="email_address" class="text-input" required>
         <br>
-        <div>
-        <label for="road">Road</label>
-        <input type="radio" id="road" name="running-preference" value="road" required checked>
+        <div class="radio-buttons">
+          <div>
+            <label for="road">Road</label>
+            <input type="radio" id="road" name="running-preference" value="road" required checked>
+          </div>
+          <div>
+            <label for="trail">Trail</label>
+            <input type="radio" id="trail" name="running-preference" value="trail" required>
+          </div>
+          <div>
+            <label for="both">Both</label>
+            <input type="radio" id="both" name="running-preference" value="both" required>
+          </div>
         </div>
-        <div>
-        <label for="trail">Trail</label>
-        <input type="radio" id="trail" name="running-preference" value="trail" required>
-        </div>
-        <div>
-        <label for="both">Both</label>
-        <input type="radio" id="both" name="running-preference" value="both" required>
-        </div>
-        <button type="submit" class="join_button">Let's Run!</button>
+        <button type="submit" class="join-button">Let's Run!</button>
       </form>
       </section>
     </main>
